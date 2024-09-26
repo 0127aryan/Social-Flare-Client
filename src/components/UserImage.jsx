@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://social-flare-server.vercel.app/assets/${image}`}
+        src={`https://social-flare-server.onrender.com/assets/${image}`}
       />
     </Box>
   );

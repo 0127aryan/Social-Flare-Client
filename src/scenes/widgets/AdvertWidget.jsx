@@ -22,7 +22,7 @@ const AdvertWidget = () => {
             width='100%'
             height='auto'
             alt="advertisement"
-            src="https://social-flare-server.vercel.app/assets/info4.jpeg"
+            src="https://social-flare-server.onrender.com/assets/info4.jpeg"
             style={{ borderRadius: '0.75rem' , margin: '0.75rem 0'}}
          />
          <FlexBetween>

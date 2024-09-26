@@ -13,7 +13,7 @@ const FriendListWidget = ({userId}) => {
 
     const getFriends = async() => {
         const response = await fetch(
-            `https://social-flare-server.vercel.app/${userId}/friends`,
+            `https://social-flare-server.onrender.com/${userId}/friends`,
             {
                 method: "GET",
                 headers: {

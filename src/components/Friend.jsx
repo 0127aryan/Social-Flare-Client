@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://social-flare-server.vercel.app/users/${_id}/${friendId}`,
+      `https://social-flare-server.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
