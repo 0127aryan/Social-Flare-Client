@@ -22,7 +22,7 @@ const UserWidget = ({ userId, picturePath}) => {
     const main = palette.neutral.main
 
     const getUser = async () => {
-        const response = await fetch(`https://socialflare-server.netlify.app/users/${userId}`,
+        const response = await fetch(`https://social-flare-server.vercel.app/users/${userId}`,
             {
                 method: 'GET',
                 headers: {
