@@ -13,7 +13,7 @@ const FriendListWidget = ({userId}) => {
 
     const getFriends = async() => {
         const response = await fetch(
-            `http://localhost:3001/${userId}/friends`,
+            `https://social-flare-server.onrender.com/${userId}/friends`,
             {
                 method: "GET",
                 headers: {
