@@ -15,7 +15,7 @@ const ProfilePage = () => {
     const isNonMobileScreens = useMediaQuery("(min-width: 1000px)")
     
     const getUser = async () => {
-        const response = await fetch(`https://social-flare-server.onrender.com/users/${userId}`,{
+        const response = await fetch(`https://socialflare-server.netlify.app/users/${userId}`,{
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${token}`
